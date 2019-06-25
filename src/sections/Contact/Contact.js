@@ -12,15 +12,16 @@ import "./contact.css"
 import ReactTooltip from "react-tooltip"
 
 const Contact = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    })
-  }, [])
   return (
     <section id="contact" className="section-container">
-      <h2 data-aos="fade-right">Find my on</h2>
-      <div className="icons-container" data-aos="fade-left">
+      <h2 data-aos="fade-right" data-aos-once="true">
+        Find my on
+      </h2>
+      <div
+        className="icons-container"
+        data-aos="fade-left"
+        data-aos-once="true"
+      >
         <a
           target="_blank"
           rel="noopener noreferrer"
