@@ -38,12 +38,18 @@ const ProjectLinks = ({ preview, github }) => {
 }
 
 const ProjectCard = ({ title, description, skills, links, image }) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    })
+  }, [])
   return (
     <div className="grid-projects">
       <div
         className="image-container"
         data-aos="fade-left"
         data-aos-once="true"
+        data-aos-delay="50"
       >
         <Image imgName={image} />
       </div>
