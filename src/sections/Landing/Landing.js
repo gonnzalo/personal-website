@@ -7,10 +7,10 @@ const Landing = () => {
     <section id="home" className="landing-page">
       <div className="home-container">
         <h1>
-          Hi! Im <span className="rest">Gonzalo!</span>
+          Hi! Im <span className="tittle-green">Gonzalo!</span>
         </h1>
         <h2>
-          <span className="rest">Front End</span> Developer
+          <span className="tittle-green">Front End</span> Developer
         </h2>
       </div>
       <AnchorLink offset="100" href="#projects">

@@ -28,7 +28,6 @@ const Layout = ({ children }) => {
         ? setHeaderActive(true)
         : setHeaderActive(false)
     }
-
     window.addEventListener("scroll", handleScroll)
     return () => {
       window.removeEventListener("scroll", handleScroll)
@@ -38,6 +37,8 @@ const Layout = ({ children }) => {
     if (window.innerWidth < 750) {
       setcurrentLink(0)
     }
+
+    return window.scrollY > 10 ? setHeaderActive(true) : setHeaderActive(false)
   }, [])
 
   return (

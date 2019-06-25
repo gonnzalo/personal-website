@@ -72,7 +72,7 @@ ProjectSkill.propTypes = {
 }
 
 ProjectSkills.propTypes = {
-  skills: PropTypes.string.isRequired,
+  skills: PropTypes.arrayOf(PropTypes.string).isRequired,
 }
 
 ProjectLinks.propTypes = {
@@ -83,8 +83,11 @@ ProjectLinks.propTypes = {
 ProjectCard.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  skills: PropTypes.string.isRequired,
-  links: PropTypes.string.isRequired,
+  skills: PropTypes.arrayOf(PropTypes.string).isRequired,
+  links: PropTypes.shape({
+    github: PropTypes.string,
+    preview: PropTypes.string,
+  }).isRequired,
   image: PropTypes.string.isRequired,
 }
 
