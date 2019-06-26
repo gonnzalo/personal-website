@@ -6,6 +6,6 @@ My personal Portfolio build with Gatbsy
 
 - [gonnzalo](https://github.com/gonnzalo)
 
-###License
+### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
