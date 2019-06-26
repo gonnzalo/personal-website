@@ -45,7 +45,9 @@ const Layout = ({ children }) => {
     <>
       <Header isHeaderActive={isHeaderActive} currentLink={currentLink} />
       <div>
-        <main ref={mainRef}>{children}</main>
+        <main ref={mainRef} className="something">
+          {children}
+        </main>
       </div>
       <Footer />
     </>

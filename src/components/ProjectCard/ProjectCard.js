@@ -41,6 +41,7 @@ const ProjectCard = ({ title, description, skills, links, image }) => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
+      disable: "mobile",
     })
   }, [])
   return (

@@ -77,6 +77,7 @@ const Header = props => {
               : "hamburger hamburger--elastic"
           }`}
           type="button"
+          aria-label="Open the menu"
           onClick={handleCLik}
         >
           <span className="hamburger-box">

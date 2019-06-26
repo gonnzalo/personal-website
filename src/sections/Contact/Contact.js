@@ -28,6 +28,7 @@ const Contact = () => {
           href="mailto:arecogonzalo@gmail.com"
           data-tip="contact me"
           data-place="bottom"
+          aria-label="email"
         >
           <FontAwesomeIcon icon={faEnvelope} className="icon" />
           <ReactTooltip className="tooltips" effect="solid" />
@@ -38,6 +39,7 @@ const Contact = () => {
           href="https://github.com/gonnzalo"
           data-tip="github"
           data-place="bottom"
+          aria-label="github"
         >
           <FontAwesomeIcon icon={faGithub} className="icon" />
           <ReactTooltip className="tooltips" effect="solid" />
@@ -48,6 +50,7 @@ const Contact = () => {
           href="https://www.hackerrank.com/gonnzalo"
           data-tip="hacker rank"
           data-place="bottom"
+          aria-label="hacker rank"
         >
           <FontAwesomeIcon icon={faHackerrank} className="icon" />
           <ReactTooltip className="tooltips" effect="solid" />
@@ -56,6 +59,7 @@ const Contact = () => {
           href="https://www.linkedin.com/in/gonzaloareco/"
           data-tip="linkedin"
           data-place="bottom"
+          aria-label="linkedin"
         >
           <FontAwesomeIcon icon={faLinkedin} className="icon" />
           <ReactTooltip className="tooltips" effect="solid" />

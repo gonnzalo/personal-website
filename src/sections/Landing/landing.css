@@ -19,7 +19,7 @@
 
 .landing-page a {
   position: absolute;
-  bottom: 20px;
+  bottom: 160px;
   left: 50%;
   z-index: 2;
   display: inline-block;

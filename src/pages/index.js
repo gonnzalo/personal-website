@@ -1,7 +1,7 @@
 import React from "react"
 
 import "normalize.css"
-
+import "typeface-montserrat"
 import Layout from "../components/layout"
 
 import SEO from "../components/seo"

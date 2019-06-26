@@ -24,7 +24,8 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
-    "react-tooltip": "^3.10.0"
+    "react-tooltip": "^3.10.0",
+    "typeface-montserrat": "0.0.54"
   },
   "devDependencies": {
     "eslint-config-airbnb": "^17.1.0",

@@ -13,7 +13,7 @@ const Landing = () => {
           <span className="tittle-green">Front End</span> Developer
         </h2>
       </div>
-      <AnchorLink offset="100" href="#projects">
+      <AnchorLink offset="100" href="#projects" aria-label="projects">
         <span></span>
       </AnchorLink>
     </section>
