@@ -2,7 +2,7 @@ export default [
   {
     title: "Crypto News",
     description:
-      "Full stack web app build with React, Node, Express, Graphql and Apollo for vizualazing the lastest cryptocurrencies news. Users can likes and comments their favourites news",
+      "Full stack web app build with React, Node, Express, Graphql and Apollo for visualizing the lastest cryptocurrencies news. Users can like and comment their favourites news",
     skills: ["React", "Apollo", "Graphql", "Node", "Express", "PostgreSQL"],
     image: "crypto-news.png",
     links: {
@@ -13,7 +13,7 @@ export default [
   {
     title: "Crypto Market Chart",
     description:
-      "Web app built with React, Highcharts and CoinGecko Api for vizualazing and compare cryptocurrencies by market cap.",
+      "Web app built with React, Highcharts and CoinGecko API for visualizing and compare cryptocurrencies by market cap.",
     skills: ["React", "Axios", "Highcharts", "react-autosuggest"],
     image: "crypto-chart.png",
     links: {
@@ -24,7 +24,7 @@ export default [
   {
     title: "Aeropress Recipe Generator",
     description:
-      "This project is simple web app to generate ramdom aeropress coffee recipe",
+      "This project is a simple web app to generate random Aeropress coffee recipe",
     skills: ["HTML5", "CSS3", "React"],
     image: "coffee.png",
     links: {
@@ -46,7 +46,7 @@ export default [
   {
     title: "Pomodoro Clock",
     description:
-      "Pomodoro Clock is a web app build with react to use the Pomodoro Technique",
+      "Pomodoro Clock is a web app build with React to use the Pomodoro Technique",
     skills: ["HTML5", "CSS3", "React"],
     image: "pomodoro.png",
     links: {

@@ -1,4 +1,4 @@
-My personal Portfolio build with Gatbsy
+My personal Portfolio build with Gatsby
 
 [gonnzalo.github.io](https://gonnzalo.github.io/)
 
