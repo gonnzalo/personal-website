@@ -19,7 +19,6 @@
 
 .landing-page a {
   position: absolute;
-  bottom: 160px;
   left: 50%;
   z-index: 2;
   display: inline-block;
@@ -35,9 +34,6 @@
   opacity: 0.5;
 }
 
-#home a {
-  padding-top: 70px;
-}
 #home a span {
   position: absolute;
   top: 0;
@@ -106,6 +102,7 @@
 #home .home-container h2 {
   font-size: 3.2rem;
   text-align: center;
+  padding-bottom: 2rem;
 }
 
 @media (max-width: 750px) {

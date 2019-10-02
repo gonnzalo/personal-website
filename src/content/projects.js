@@ -22,6 +22,17 @@ export default [
     },
   },
   {
+    title: "Omdb Movie Search",
+    description:
+      "Web app built with React, React-Router and Omdb API as part of a job assigment.",
+    skills: ["React", "Axios", "React-Router"],
+    image: "omdb.png",
+    links: {
+      github: "https://github.com/gonnzalo/omdb-movie-search",
+      preview: "https://omdb-coding-challenge.gonnzalo.now.sh/",
+    },
+  },
+  {
     title: "Aeropress Recipe Generator",
     description:
       "This project is a simple web app to generate random Aeropress coffee recipe",
